@@ -1,7 +1,7 @@
 ## CARD DE TABELA DE PREÇOS FICTíCIOS
 
 
-- Imagems
+- Template
 
 ![Template](template.png)
 
