@@ -68,27 +68,28 @@ body{
 	position: absolute;
 	top:0px;
 	left: 0px;
-	width: 70px;
-	height: 443px;
+	width: 120px;
+	height: 467px;
 	background-color: rgba(167,219,216);
 	border-top-left-radius: 7px;
 	border-bottom-left-radius: 7px;
 }
 
 .package:nth-child(2){
-	background-color: rgb(200,200,169);
+	background-color: rgb(236,229,206);
+}
+
+
+.package:nth-child(2)::before{
+	background-color: rgb(241,212,175);
 }
 
 .package:nth-child(3){
-	background-color: rgb(3,101,100);
-}
-
-.package:nth-child(2)::before{
-	background-color: rgb(131,175,155);
+	background-color: rgb(229,252,194);
 }
 
 .package:nth-child(3)::before{
-	background-color: rgb(205,179,128);
+	background-color: rgb(157,224,173);
 }
 
 .package .title{
@@ -97,7 +98,7 @@ body{
 	padding: 20px;
 	font-size: 1.5rem;
 	text-align: center;
-	color:grey;
+	color:rgb(84, 121, 128);
 	text-shadow: 1px 1px 1px white;
 	background-color:transparent;
 }
@@ -109,10 +110,10 @@ body{
 	width: 150px;
 	height: 150px;
 	border-radius:100%;
-	box-shadow:inset 2px 2px 1px 1px #fff;
+	box-shadow:inset 2px 2px 1px 1px rgb(84, 121, 128);
 	text-align: center;
 	font-weight: bold;
-	color:#fff;
+	color:rgb(84, 121, 128);
 	font-size: 2rem;
 	transform: translate(30%, 0%);
 }
@@ -121,8 +122,6 @@ body{
 	display: flex;
 	justify-content: center;
 	position: relative;
-	color:#fff;
-	text-shadow: 1px 1px 1px black;
 	z-index: 1000;
 	font-size: 1.2rem;
 }
@@ -131,7 +130,13 @@ body{
 	padding: 20px;
 	list-style: none;
 	text-align: center;
-	font-weight: bold;
+	font-weight: normal;
+}
+
+.package .body .info .info-body .info-items{
+	padding: 2px;
+	color:rgb(255, 255, 255);
+	text-shadow: 1px 1px 1px #000;
 }
 
 .button{
@@ -142,8 +147,8 @@ body{
 .btn{
 	position: relative;
 	border:none;
-	background-color: rgba(224,228,204);
-	color:grey;
+	background-color: rgba(3,54,73);
+	color:#f1f1f1;
 	font-size: 1rem;
 	font-weight: bold;
 	text-transform: uppercase;
